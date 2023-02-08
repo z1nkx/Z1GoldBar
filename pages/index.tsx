@@ -17,10 +17,10 @@ import { parseIneligibility } from "../utils/parseIneligibility";
 
 // Put Your Edition Drop Contract address from the dashboard here
 const myEditionDropContractAddress =
-  "0x9D5a3f265f3CA98a27e28382da180893BF0516D6";
+  "0x104E5050cC962620b7a19563038472a75084F2F2";
 
 // Put your token ID here
-const tokenId = 1;
+const tokenId = 0;
 
 const Home: NextPage = () => {
   const address = useAddress();
