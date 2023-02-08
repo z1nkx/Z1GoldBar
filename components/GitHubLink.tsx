@@ -13,18 +13,11 @@ export default function ThirdwebGuideFooter() {
 
       <div
         style={{
-          position: "fixed",
-          bottom: 14,
-          right: 18,
+        
         }}
       >
-        <img
-  
-          width={40}
-          height={40}
-          role=""
-          style={{ cursor: "" }}
-        />
+        
+
       </div>
     </>
   );
