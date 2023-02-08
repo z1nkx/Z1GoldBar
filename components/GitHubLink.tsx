@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function ThirdwebGuideFooter() {
-  const url = "https://github.com/thirdweb-example/edition-drop";
+  const url = "";
   return (
     <>
       <div
@@ -11,13 +11,12 @@ export default function ThirdwebGuideFooter() {
           right: -80,
           height: 300,
           width: 150,
-          border: "1px solid #eaeaea",
+          border: "0px solid #eaeaea",
           transform: "rotate(45deg)",
-          backgroundColor: " #262935",
-          cursor: "pointer",
+          backgroundColor: " #000000",
+          cursor: "",
         }}
-        role="button"
-        onClick={() => window.open(url, "_blank")}
+        role=""
       />
 
       <div
@@ -31,9 +30,8 @@ export default function ThirdwebGuideFooter() {
           src={"/github.png"}
           width={40}
           height={40}
-          role="button"
-          style={{ cursor: "pointer" }}
-          onClick={() => window.open(url, "_blank")}
+          role=""
+          style={{ cursor: "" }}
         />
       </div>
     </>

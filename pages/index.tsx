@@ -17,7 +17,7 @@ import { parseIneligibility } from "../utils/parseIneligibility";
 
 // Put Your Edition Drop Contract address from the dashboard here
 const myEditionDropContractAddress =
-  "0xDC8017E1E20BFF80a49B0B92F719f00170013B4F";
+  "0x9D5a3f265f3CA98a27e28382da180893BF0516D6";
 
 // Put your token ID here
 const tokenId = 0;
@@ -300,11 +300,11 @@ const Home: NextPage = () => {
                         isDisabled={!canClaim || buttonLoading}
                         onError={(err) => {
                           console.error(err);
-                          alert("Error claiming NFTs");
+                          alert("Error minting NFTs");
                         }}
                         onSuccess={() => {
                           setQuantity(1);
-                          alert("Successfully claimed NFTs");
+                          alert("Minted Gold Bar NFT");
                         }}
                       >
                         {buttonLoading ? "Loading..." : buttonText}
@@ -317,13 +317,6 @@ const Home: NextPage = () => {
           </>
         )}
       </div>
-      {/* Powered by thirdweb */}{" "}
-      <img
-        src="/logo.png"
-        alt="thirdweb Logo"
-        width={135}
-        className={styles.buttonGapTop}
-      />
     </div>
   );
 };
